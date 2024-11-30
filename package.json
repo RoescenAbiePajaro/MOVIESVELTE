@@ -19,6 +19,7 @@
 		"@types/eslint": "^9.6.0",
 		"@vitest/ui": "^2.1.5",
 		"autoprefixer": "^10.4.20",
+		"concurrently": "^9.1.0",
 		"eslint": "^9.7.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
@@ -27,7 +28,7 @@
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",
 		"prettier-plugin-tailwindcss": "^0.6.5",
-		"svelte": "^5.0.0",
+		"svelte": "^5.2.7",
 		"svelte-check": "^4.0.0",
 		"tailwindcss": "^3.4.9",
 		"typescript": "^5.0.0",
@@ -37,14 +38,9 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.6",
+		"@sveltejs/adapter-vercel": "^5.4.8",
 		"@tailwindcss/typography": "^0.5.15",
-		"body-parser": "^1.20.3",
-		"cors": "^2.8.5",
-		"express": "^4.21.1"
-	},
-	"description": "Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).",
-	"main": "eslint.config.js",
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+		"bad-words": "^4.0.0",
+		"svelte-routing": "^2.13.0"
+	}
 }
