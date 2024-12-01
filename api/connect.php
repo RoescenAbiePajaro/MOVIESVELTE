@@ -5,6 +5,7 @@ $password = ""; // Default XAMPP password is empty
 $dbname = "movie_reviews"; // Database name
 
 try {
+    
     // Establish PDO connection
     $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
